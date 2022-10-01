@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body {
+    background-image: url(../img/860645.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center; 
+    
+}
+
+
+.container-main { 
+    width: 600px;
+    height: 400px;
+    background-color: rgb(165, 82, 14);
+    border: 5px solid aliceblue;
+    border-radius: 30px;
+    margin: 150px 50px 50px 50px;
+    padding: 5px;
+
+}
+
+
+
+.titulo h1 {
+    text-align: center;
+    color: rgb(214, 168, 168);
+    font-family: 'New Super Mario Font U', sans-serif;
+    font-size: 50px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    
+
+}
+
+.integrante {
+    padding: 5px;
+    width: 35%;
+    height: 100%;
+    text-align: center;
+    color: aliceblue;
+}
+
+h2{
+    border: 1px solid white;
+    border-radius: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    letter-spacing: 3px;
+    padding: 2px;
+
+}
+
+dl{
+    margin-top: 7%;
+}
+
+dt{
+    color: black;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+dd{
+    margin-bottom: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+@media (max-width:653px) {
+  
+    .container{
+        display: block;
+    }
+
+    .container-main{
+        height: 100%;
+    }
+
+    .integrante{
+        width: auto;
+        height: auto;
+    }
+
+    h1{
+        font-size: 4vh;
+    }
+}

@@ -1,0 +1,41 @@
+body {
+    background-image: url(../img/body.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+form {
+    padding:50px;
+    background-color: rgba(0, 0, 0, 0.651);
+    text-align: center  ;
+
+}
+
+.caja-comparar {
+    padding: 0 50px 0 0;
+}
+
+h2 {
+    color: aliceblue;
+}
+
+.caja-comparacion{
+    background-color: rgba(13, 13, 14, 0.452);
+    
+
+}
+
+.caja-listas{
+    display: flex;
+    justify-content: center;
+}
+
